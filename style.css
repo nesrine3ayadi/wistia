@@ -1,0 +1,380 @@
+@font-face {
+  font-family: "Walsheim Regular";
+  src: url(GTWalsheimProRegular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: "Walsheim Bold";
+  src: url(GTWalsheimProBold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal
+}
+
+button:hover {
+  cursor: pointer;
+}
+h1, p, a, span, li, button{
+  font-family: "Walsheim Regular";
+}
+/**** Header ********/
+header {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+svg.jsx-1124597497.WistiaLogo path {
+  color: #3ea9f5;
+  fill: #3ea9f5;
+}
+nav ul.main-menu>li:hover  ~ li a svg.jsx-1124597497.WistiaLogo path  {
+  fill: #efefef;
+    color: #efefef;;
+}
+nav ul.main-menu li{
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+button#btn-dropdown {
+  align-self: flex-end;
+  justify-content: center;
+  background: #3ea9f5;
+  border: 2px solid #3ea9f5;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+.right-btn-dropdown{
+  text-align: right;
+    align-self: center;
+    flex-grow: 0.7;
+}
+nav li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(54, 57, 69);
+}
+nav li a:hover {
+  color: #0691F2;
+}
+nav ul.main-menu li span {
+  text-transform: uppercase;
+  color: rgb(91, 107, 127);
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+nav ul.main-menu>li {
+  padding: 20px 20px 0px 20px;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+ul.main-menu {
+  margin-bottom: 0px;display: flex;
+  
+}
+li#logo {
+  order: -5;
+  position: relative;
+  bottom: 5px;
+}
+nav ul.main-menu li span.puce {
+  transform: rotate(90deg);
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  font-size: 15px;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  margin-top: 10px;
+}
+.submenu-content p {
+  color: #5B6B7F;
+  font-size: 15px;
+  line-height: 1.4;
+  margin-top: 20px;
+}
+
+.header-button-right {
+  flex-grow: 6;
+  text-align: right;
+}
+.header-button-right button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 3px;
+  font-weight: 600;
+}
+button#login {
+  background: white;
+  border: 1px solid #ececec;
+}
+button#login:hover {
+  box-shadow: 0px 7px 0px #80808066;
+  position: relative;
+  bottom: 2px;
+}
+button#started {
+  background: #3ea9f5;
+  border: 1px solid #3ea9f5;
+  color: white;
+}
+li.dropdown:hover>.submenu {
+  display: flex;
+  border-top: 1px solid #e2e1e1;
+  padding: 30px 135px;
+  background: white;
+}
+ul.main-menu i {
+  color: rgb(156, 168, 183);
+  font-size: 10px;
+}
+li.dropdown:hover i {
+  transform: rotate(180deg);
+}
+/***************/
+body {
+ 
+  margin: 0;
+}
+/***********main***********/
+.container-flex{
+  display: flex;
+}
+/**** Section 1 : Slide ********/
+#slide{
+  background-color:  #c896a5;
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+  height: 100%;
+  flex-direction: column;
+  padding: 0 130px;
+}
+#slide button {
+  max-width: 200px;
+  padding: 20px 15px;
+  font-weight: 600;
+  font-size: 18px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+section#slide h1 span {
+  color: white;
+}
+#slide h1{
+  font-size: 41px;
+  font-weight: 400;
+  font-family: "Walsheim Regular";
+}
+/*********** Section 2 *************/
+
+section#section2 div {
+  padding: 30px 60px;
+}
+section#section2 svg {
+  height: 55px;
+  width: 55px;
+}
+section#section2 p {  
+  font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+#section2 button:hover{
+  background-color: white;
+}
+#yellow {
+  background-color: rgb(254, 210, 74);
+}
+#yellow svg {
+  color:  #3EA9F5;
+}
+ #btn-yellow:hover ~  svg.IconChartGrowth path{
+  color: white;
+  fill: white; 
+}
+#btn-blue:hover ~  svg.IconBookChapter path{
+  color: white;
+  fill: white; 
+}
+#btn-green:hover ~  svg.IconLaptop path{
+  color: white;
+  fill: white; 
+}
+svg.Icon.IconLaptop {
+  color: rgb(231, 184, 199);
+}
+svg.Icon.IconBookChapter{
+  color: rgb(254, 210, 74);
+}
+#green {
+  background-color: rgb(81, 194, 159);
+}
+#blue {
+  background-color: #3EA9F5;
+}
+section#section2 div {
+  padding: 30px 70px;
+  flex: 1;
+  display: flex;
+    flex-direction: column;
+}
+
+section#section2 div h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  width: 100%;
+  margin: 15px 0px 10px;
+}
+
+#section2 button {
+  width: 160px;
+  background: transparent;
+  border: 2px solid #ffffffab;
+  border-radius: 5px;
+  color: black;
+  padding: 15px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 18px;
+  order:3;
+}
+/********** Section 3 ***********/
+section#parteners {
+  padding: 100px 60px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+#parteners p{
+  color: #9CA8B7;
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 160px;
+  
+}
+/****************/ 
+#articles{
+  padding: 60px 30px;
+}
+article.block a {
+  color: #3ea9f5;
+}
+a.link-article {
+  position: relative;
+  display: inline-block;
+}
+
+a.link-article:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #3ea9f5;
+  opacity: 0;
+  transition: .5s ease;
+}
+a.link-article:hover::before {
+  opacity: 0.5;
+}
+article.block p {
+  line-height: 28px;
+  margin-bottom: 30px;
+  color: #2A2D35;
+}
+article.block h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+/******* Section 4 **********/
+#terms{
+  background-color: #efefef;
+  text-align: center;
+  padding: 25px 40px;
+}
+section#terms p {
+  color: #363945;
+  font-size: 18px;
+}
+
+/****** Footer *****/
+footer {
+  background: #2a2d35;
+}
+footer hr{
+  border: none;
+    border-left: 1px solid #B2B9C1;
+    height: 200px;
+    margin: 65px 0;
+    opacity: .1;
+    width: 1px;
+}
+#left-footer{
+  padding: 90px 60px;
+}
+#left-footer p{
+    font-size: 30px;
+    line-height: 1.3;
+    max-width: 350px;
+    color: white;
+}
+#left-footer #social-links {
+  line-height: 1.5;
+  margin-top: 15px;
+  font-size: 16px;
+}
+#left-footer #social-links a{
+  color: #56BE8E;
+  margin-left: 2px;
+}
+#right-footer {
+  display: flex;
+  flex: 5 1 auto;
+  padding: 90px 60px;
+}
+.footer-links {
+  
+  flex: 5 1 auto;
+}
+div#right-footer li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+#right-footer ul li span {
+  color: #9CA8B7;
+  font-size: 11px;
+  font-weight: 800;
+}
+#right-footer ul li a{
+  color: #F9F9F9;
+    font-size: 15px;
+    text-decoration: none;
+}
+p#copyright {
+  color: #B2B9C1;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 30px 0px;
+}
+article.block img {
+  max-width: 340px;
+}
+article.block {
+  flex: 1;
+  padding: 0 45px;
+}
