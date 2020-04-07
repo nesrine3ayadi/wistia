@@ -130,8 +130,11 @@ button#started {
 li.dropdown:hover>.submenu {
   display: flex;
   border-top: 1px solid #e2e1e1;
-  padding: 30px 135px;
+  padding: 30px 0;
   background: white;
+}
+.submenu-content {
+    padding-left: 100px;
 }
 ul.main-menu i {
   color: rgb(156, 168, 183);
